@@ -1,0 +1,105 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Andrew Blair - Cybersecurity Specialist</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+    
+    <style>
+        /* Image container styling */
+        .image-container {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin: 0 auto 2em auto;
+            border: 2px solid rgba(255, 255, 255, 0.5);
+            overflow: hidden;
+            position: relative;
+        }
+        .image-container img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            display: block;
+        }
+        #header {
+            padding-top: 1.5em;
+        }
+
+        /* Info Box - Adjusted positioning */
+        .info-box {
+            position: fixed; /* Changed from absolute to fixed */
+            bottom: 100px; /* Increased from 20px to 100px */
+            left: 50%;
+            transform: translateX(-50%);
+            width: 80%;
+            max-width: 800px;
+            background: rgba(255, 255, 255, 0.8);
+            color: black;
+            padding: 15px;
+            border-radius: 10px;
+            text-align: center;
+            font-size: 16px;
+            backdrop-filter: blur(10px);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            z-index: 100; /* Ensure it's above other elements */
+        }
+        /* Input field styling */
+        .info-box textarea {
+            width: 100%;
+            height: 60px;
+            border: none;
+            background: transparent;
+            resize: none;
+            font-size: 16px;
+            text-align: center;
+            outline: none;
+            font-family: inherit;
+        }
+    </style>
+</head>
+<body class="is-preload">
+    <div id="wrapper">
+        <div id="bg"></div>
+        <div id="overlay"></div>
+        <div id="main">
+
+            <!-- Header -->
+            <header id="header">
+                <div class="image-container">
+                    <img src="assets/css/images/cropped_image.png" alt="Profile Picture" id="profile-img"/>
+                </div>
+                <h1>Andrew Blair</h1>
+                <p>Cybersecurity Enthusiasim lost no &nbsp;&bull;&nbsp; Technical Specialist &nbsp;&bull;&nbsp; Blair's Tech</p>
+                <nav>
+                    <ul>
+                        <li><a href="https://twitter.com/yourusername" target="_blank" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+                        <li><a href="https://www.linkedin.com/in/andrewblairit" target="_blank" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+                        <li><a href="https://docs.google.com/drive/folders/1hEwPRW5BH7Dz0M8XrPKGmeR6I0KzoKrx?usp=share_link" target="_blank" class="icon brands fa-google-drive"><span class="label">Google Docs</span></a></li>
+                        <li><a href="https://github.com/Juuzouxii" target="_blank" class="icon brands fa-github"><span class="label">Github</span></a></li>
+                        <li><a href="mailto:andrewblair592@gmail.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+                    </ul>
+                </nav>
+            </header>
+
+            <!-- Info Box -->
+            <div class="info-box">
+                <textarea placeholder="Cybersecurity Enthuiast and Future prospect in the field of computer science"></textarea>
+            </div>
+
+            <!-- Footer -->
+            <footer id="footer">
+                <span class="copyright">&copy; Andrew Blair 2025. Design: <a href="http://html5up.net">HTML5 UP</a>.</span>
+            </footer>
+        </div>
+    </div>
+
+    <script>
+        window.onload = function() { 
+            document.body.classList.remove('is-preload'); 
+        }
+    </script>
+</body>
+</html>
